@@ -1,0 +1,765 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation and Image Start here */
+
+.navcontainer {
+    height: 90px;
+    border: solid 0.5px rgb(224, 216, 216);
+    /* display: inline; */
+}
+
+.navlogo {
+    /* display: inline; */
+    margin: 0;
+}
+
+/* div.navlogo {
+    outline: 0;
+} */
+
+.navlogo img {
+    height: 70px;
+    width: 70px;
+    margin-left:  150px;
+    margin-top: 5px;
+    outline: 0;
+    display: inline;
+}
+
+
+.navbar {
+    /* display: inline; */
+    margin-left: 600px;
+    margin-top: -60px;
+    /* width: 40%; */
+    /* margin-bottom: -200px; */
+    /* display: inline-block; */
+    /* justify-content: end; */
+}
+
+
+
+.navtopmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    display: inline;
+}
+
+.navsubmenu {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: #081f89;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    word-wrap: break-word;
+}
+
+li a:hover, .navsubmenu:hover .dropbtn {
+    background-color: aliceblue;
+}
+
+li.navsubmenu {
+    display: inline-block;
+    /* word-wrap: break-word; */
+    line-height: 1em;
+}
+
+.menu-list {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.menu-list a {
+    color: #081f89;
+    padding: 16px 18px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    /* word-wrap: break-word; */
+}
+
+.menu-list a:hover {
+    background-color: aliceblue;
+}
+
+.navsubmenu:hover .menu-list {
+    display: block;
+}
+
+
+/* Navigation and Image End here */
+
+/* HeroBanner Start here */
+
+.herobanner {
+    height: 90vh;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    
+    /* position: relative; */
+    /* border: solid 1px green; */
+}
+
+.herotext {
+    width: 45%;
+    /* font-family: 'poppins', Lucida, Helvetica, sans-serif; */
+    color: #1A0052;
+    
+    /* border: solid 1px red; */
+    
+}
+
+.herotext h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 1em;
+    margin-left: 50px;
+    margin-top: 120px;
+    
+    letter-spacing: 0;
+}
+
+.herotext p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 50px;
+    padding-top: 12px;
+}
+
+.heroimg {
+    width: 45%;
+    margin-left: 88px;  
+    
+    /* border: solid 1px green; */
+}
+
+.heroimg img {
+    border-radius: 0px 0px 30px 150px;
+}
+
+.startbtn {
+    width: 120px;
+    height: 45px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: #0a2499;
+   
+    border-radius: 10px;
+    border: none;
+
+}
+
+.startbtn a {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* HeroBanner Stop here */
+
+
+/* ICTGlance and background Start here */
+
+.ictglance {
+    height: 80vh;
+    background-image: linear-gradient(120deg,rgba(0,4,66,0) 0%,#000442 70%), url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+div.glancetext {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 700px;
+}
+
+.glancetext {
+    width: 35vw;
+    height: 60vh;
+    padding-top: 50px;
+    /* border: solid 2px red;
+    border: hidden; */
+}
+
+
+.glancetext h3 {
+    font-family: 'Raleway', Helvetica,Arial,Lucida,sans-serif;
+    font-size: 28px;
+    font-weight: 520;
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+
+.glancetext p {
+    font-family: 'Poppins', Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.2em;
+    text-align: justify;
+    color: white;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+}
+
+.glancetext a {
+    color: #2ea3f2;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+.glancetext button {
+    width: 10vw;
+    height: 8vh;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #000442;
+    color: white;
+    border: solid 2px white;
+    border-radius: 5px;
+}
+
+
+/* ICTGlance and background Stop here */
+
+/* Alumni section Start here */
+
+
+.alumnicontainer {
+    height: 85vh;
+}
+
+.alumnitext {
+    height: 20vh;
+    margin-top: 130px;
+    margin-left: 150px;
+}
+
+.alumnitext h2 {
+    font-family: 'Poppins', Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.2em;
+    padding-bottom: 0;
+    color: #333;
+}
+
+
+.alumnilogo {
+    margin-left: 200px;
+}
+
+.alignlogo {
+    padding: 10px;
+}
+
+.alignlogo img {
+    height: 70px;
+    width: 150px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+
+}
+
+/* Alumni section Stop here */
+
+/* Making africa intercontinental Start here */
+
+.africacon {
+    height: 110vh;
+    padding-top: 50px;
+    background-color: rgba(0,178,255,0.06)
+}
+
+
+.aficaholder {
+    height: 80vh;
+    width: 80%;
+    margin: 40px auto;
+    
+    padding: 30px 0 0 0;
+    /* margin: 50px 0 50px 0; */
+}
+
+
+.africaItems {
+    float: left;
+}
+
+.africaItems img {
+    height: 490px;
+    width: 660px;
+}
+
+.imgItem {
+    height: 490px;
+    width: 660px;
+}
+
+.txtItem {
+    height: 480px;
+    width: 380px;
+    margin-left: 30px;
+
+}
+
+.txtItem h2 {
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    letter-spacing: -0.02em;
+    line-height: 1.2em;
+}
+
+.txtItem p {
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    line-height: 1.8em;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+p.pp {
+    padding-top: 0;
+}
+
+
+
+
+
+/* OUR Team page start here */
+
+
+/* Ourteambanner start here */
+
+.ourteamcontainer {
+    height: 60vh;
+    background-image: linear-gradient(180deg,rgba(150,105,97,0.67) 0%,rgba(2,0,76,0.84) 100%),url(/img/Library-2-scaled.jpg);
+    background-position: 50%;
+    background-size: cover;
+
+}
+
+.ourteambanner {
+    margin-left: 150px;
+    padding-top: 150px; 
+}
+
+.ourteambanner h2 {
+    font-family: 'Raleway', Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    color: white;
+    /* margin-left: 150px; */
+    /* padding-top: 150px; */
+}
+
+
+/* Ourteambanner stop here */
+
+
+/* board advisor section start here */
+
+
+.boardadvisor {
+    height: 40vh;
+}
+
+.advisorcontent {
+    height: 80%;
+    width: 85%;
+    margin: auto;
+}
+
+
+.advisorhead h2 {
+    font-family: 'Raleway', Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1em;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;   
+}
+
+
+.advisors {
+    margin-top: 50px;
+}
+
+
+.advisoritems {
+    height: 40%;
+    width: 48%;
+    font-size: 14px;
+    display: inline-block;
+    margin: 10px;
+}
+
+
+.advisoritems h3 {
+    font-family: 'Raleway', Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #333;
+    line-height: 1em;
+    padding-bottom: 10px;
+}
+
+.advisoritems p {
+    font-family: 'Poppins', Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.7em;
+    padding-top:  10px;
+}
+
+
+p.advisorslink {
+    font-size: 40px;
+}
+
+.fa-square-facebook {
+    color: #3b5998;
+}
+
+
+.fa-square-twitter {
+    color: #00acee;
+}
+
+.fa-linkedin {
+    color: #0e76a8;
+}
+
+
+
+/* board advisor section end here */
+
+
+/* Executive section Start here */
+
+.executiveback {
+    height: 190vh;
+    background-color: #f9f9f9
+}
+
+.executivewrap {
+    height: auto;
+    width: 80%;
+    margin: auto;
+}
+
+.head {
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.head h2 {
+    font-family: 'Raleway', Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+
+.executivesCon {
+    
+    /* height: 160vh; */
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.executiveItem {
+    width: 47%;
+    float: left;
+    /* margin-right: 20px; */
+
+}
+
+.executiveItem img {
+    height: 508px;
+    width: 508px;
+    
+}
+
+
+.item2  {
+    margin-left: 64px;
+    /* margin-right: ; */
+}
+
+.executiveItem h4 {
+    font-family: 'Raleway', Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1em;
+    color: #333;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+
+
+.executiveItem h5 {
+    font-family: 'Raleway', Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+    line-height: 1em;
+    padding-bottom: 5px;
+
+}
+
+.executiveItem p {
+    font-family: 'Raleway', Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 550;
+    font-size: 15px;
+    color: #666;
+    line-height: 1.5em;
+    padding-top:  10px;
+    text-align: justify;
+}
+
+p.executiveicon {
+    font-size: 40px;
+}
+
+
+/* Executive section Start here */
+
+/* Administrators section Start here */
+
+.adminContainer {
+    height: 65vh;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.adminHead {
+    padding: 20px 0 20px 0;
+}
+
+.adminHead h2 {
+    font-family: 'Raleway', Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    color: #333;
+    text-align: center;
+    margin: 10px;
+}
+
+
+
+.adminItems {
+    height: 45vh;
+    width: 12.6vw;
+    margin-top: 10px;
+    /* margin-right: 0px; */
+    /* display: inline-block; */
+    float: left;
+    box-shadow: 0px 0px 18px -6px rgba(0,0,0,0.3);
+
+}
+
+.adminItems img {
+    height: 23vh;
+    width: 12.5vw;
+    padding: 10px;
+}
+
+.adminItems h3 {
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 5px 10px;
+    line-height: 1em;
+    color: #333;
+}
+
+.adminItems p {
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #796c6c;
+}
+
+
+.headItems2,
+.headItems3,
+.headItems4,
+.headItems5 {
+    margin-left: 54px;
+}
+
+/* Administrators section Stop here */
+
+
+/* HOD section Start here */
+
+.hodContainer {
+    height: 70vh;
+}
+
+.hodholder {
+    width: 80%;
+    height: 65vh;
+    margin: auto;
+}
+
+.hodheadContainer {
+    padding: 20px 0 20px 0;
+}
+
+.hodheadContainer h3 {
+    font-family: 'Raleway', Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    color: #333;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.hodItems {
+    height: 46vh;
+    width: 16vw;
+    float: left;
+    margin: 10px 0 10px 0;
+    box-shadow: 0px 0px 18px -6px rgba(0,0,0,0.3);
+}
+
+.hodItems img {
+    height: 28vh;
+    width: 16vw;
+    padding: 10px;
+}
+
+.hodItems h3 {
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 5px 10px;
+    line-height: 1em;
+    color: #333;
+}
+
+.hodItems p {
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 5px 10px;
+    color: #796c6c;
+}
+
+
+.hitem2,
+.hitem3,
+.hitem4 {
+    margin-left: 68px;
+}
+
+
+/* HOD section Stop here */
+
+.instructContainer {
+    height: 70vh;
+}
+
+.instructholder {
+    width: 80%;
+    height: 65vh;
+    margin: auto;
+}
+
+.instructheadContainer {
+    padding: 20px 0 20px 0;
+}
+
+.instructheadContainer h3 {
+    font-family: 'Raleway', Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    color: #333;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.instructItems {
+    height: 46vh;
+    width: 16vw;
+    float: left;
+    margin: 10px 0 10px 0;
+    box-shadow: 0px 0px 18px -6px rgba(0,0,0,0.3);
+}
+
+.instructItems img {
+    height: 28vh;
+    width: 16vw;
+    padding: 10px;
+}
+
+.instructItems h3 {
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 5px 10px;
+    line-height: 1em;
+    color: #333;
+}
+
+.instructItems p {
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 5px 10px;
+    color: #796c6c;
+}
+
+
+.insitem2,
+.insitem3,
+.insitem4 {
+    margin-left: 68px;
+}
+
+.insitem5 {
+    margin-top: 60px;
+}
+
+.insitem6,
+.insitem7 {
+    margin-left: 68px;
+    margin-top: 60px;
+}
